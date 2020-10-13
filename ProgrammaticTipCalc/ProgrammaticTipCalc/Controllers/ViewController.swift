@@ -55,7 +55,6 @@ class ViewController: UIViewController {
     let amountTextField: CalcTextField = {
         let tf = CalcTextField()
         tf.placeholder = "Enter bill amount..."
-        tf.layer.sublayerTransform = CATransform3DMakeTranslation(7.5, 0, 0)
         return tf
     }()
     
